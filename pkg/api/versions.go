@@ -84,6 +84,10 @@ var VersionList = []Version{
 	{"extensions/v1beta1", "ReplicaSet", "v1.16.0"},
 	{"apps/v1beta1", "ReplicaSet", "v1.16.0"},
 	{"apps/v1beta2", "ReplicaSet", "v1.16.0"},
+
+	// PriorityClass
+	{"scheduling.k8s.io/v1beta1", "PriorityClass", "v1.17.0"},
+	{"scheduling.k8s.io/v1alpha1", "PriorityClass", "v1.17.0"},
 }
 
 func checkVersion(stub *Stub) *Version {
